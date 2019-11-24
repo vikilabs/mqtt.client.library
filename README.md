@@ -1,6 +1,6 @@
-## Basic MQTT Subscriber, Publisher library based on PAHO Library
+## Basic mqtt subscriber and publisher library based on PAHO Library
 
-Basic MQTT Subscriber, Publisher library based on PAHO Library
+Basic mqtt subscriber, publisher library based on PAHO Library
 
 #### STEP 1 :  PAHO MQTT CLIENT Library Installation 
 
@@ -31,13 +31,14 @@ Basic MQTT Subscriber, Publisher library based on PAHO Library
 
 #### STEP 2 : Compiling the library
 
-    1. cd src
-    2. make
-    3. shared library and static library is generated at "../lib" directory
+    1. git clone https://github.com/vikilabs/mqtt_client_library.git 
+    2. cd src
+    3. make
+    4. shared library and static library is generated at "../lib" directory
 
 #### STEP 3: Example programs using the library
 
-    1. cd examples
+    1. cd ../examples
     2. ./compile.sh
     3. ./mqtt_sub   # This executable starts mqtt subscriber
     4. ./mqtt_pub   # This executable starts mqtt publisher
