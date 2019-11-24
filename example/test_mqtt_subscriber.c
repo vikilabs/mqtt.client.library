@@ -3,6 +3,10 @@
 #include <unistd.h>
 #include "mqtt_subscriber.h"
 
+#define MQTT_BROKER_ADDRESS "mqtt.eclipse.org:1883"
+#define MQTT_TOPIC          "my_topic"
+#define MQTT_CLIENT_ID      "client_1"
+
 int exit_application = 0;
 
 void signal_handler(int val)
